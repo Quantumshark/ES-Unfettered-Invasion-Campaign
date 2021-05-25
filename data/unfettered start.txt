@@ -1,0 +1,13 @@
+mission "Unfettered: Invasion Recon"
+	name "
+	waypoint "Chy'chra"
+	source
+		attributes "unfettered"
+	destination Darkcloak
+	to offer
+		has "Unfettered Jump Drive 3: accepted"
+		not "Wanderers: Defend Vara Ke'sok: done"
+	on offer
+		conversation
+			``
+			
